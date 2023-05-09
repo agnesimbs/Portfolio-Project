@@ -21,14 +21,16 @@ a{
 body{
     background-color: var(--primary-color);
     font-family: var(--default-font-family);
-    text-align: center;
+    padding-top: 100px;
+   
 }
 nav{
     background-color: #e0cec1;;
 }
-.hero{
-    padding-top: 100px;
-    
+ 
+.hero-links{
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 h1{
     font-family: var(--heading-font-family);
@@ -45,9 +47,19 @@ h1{
 .hero-aboutme{
     margin-top: 100px;
 }
-.hero-image{
+img{
     width: 400px;
     border-radius: 50%;
+}
+.about{
+    margin-top: 100px;
+}
+.about-image{
+    padding-right: 10%;
+}
+i{
+    font-size: 40px;
+  
 }
 
 
