@@ -29,8 +29,15 @@ nav{
 }
  
 .hero-links{
+    background-color: #d0adb5;
     margin-top: 100px;
     margin-bottom: 80px;
+}
+.hero-links a{
+    background-color: var(--secondary-color);
+    color:white;
+    padding: 1em;
+    border-radius: 10px;
 }
 h1{
     font-family: var(--heading-font-family);
@@ -97,7 +104,8 @@ font-size: 2.5em;
 }
 .footer{
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 20em;
+    
 }
 .copyright{
     
