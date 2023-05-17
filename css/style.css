@@ -130,6 +130,11 @@ i{
     }
     
 }
+@media (max-width:820px){
+    .contact-page{
+        max-width: 100%;
+    }
+}
 
 
 
