@@ -15,6 +15,7 @@ a{
 :root{
     --primary-color:#f5ebe0;
     --secondary-color:#a06cd5;
+    --tertiary-color: #d0adb5;
     --heading-font-family: 'Playfair Display', sans-serif;
     --default-font-family: 'Poppins', serif;
 }
@@ -111,7 +112,7 @@ font-size: 2.5em;
     
     max-width: 100%;
     padding: 20px;
-    background: var(--secondary-color);
+    background: var(--tertiary-color);
     text-align: center;
     color: #fff;
 }
