@@ -30,10 +30,11 @@
     ></script>
   </head>
   <body>
+
     <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand mx-5" href="#">Agnes Muchuki</a>
+        <a class="navbar-brand mx-5" href="/index.html">Agnes Muchuki</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,10 +57,15 @@
             <li class="nav-item">
               <a class="nav-link mx-5 my-1" href="/about.html">About me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active mx-5 my-1" aria-current="page" href="#"
-                >Projects</a
-              >
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-5 my-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+              
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./designs.html">Ui/Ux Design</a></li>
+                <li><a class="dropdown-item" href="./projects.html">Web Development</a></li>
+               
+              </ul>
+
             </li>
 
             <li class="nav-item">
@@ -142,28 +148,29 @@
         <div class="col-lg-5 ">
           <img
             class="project-image img-fluid"
-            src="/images/kichengarden.png"
+            src="/images/restaurant.png"
             alt="kitchen garden app"
           />
         </div>
         <div class="col-lg-5 order-1 project-description">
-          <h3>Kitchen Garden Page</h3>
+          <h3>Restaurant Website</h3>
           <p>
-            This is a landing page for something I am passionate about and this
-            probably happens to be a kitchen garden. I love to watch the plants
-            grow, to water them and take care of them.This page gives you a feel
-            of what kitchen gardening is.
+            This is a landing page for a side project i got interested about  and this
+            probably happens to be a Restaurant Website. I developed a simple yet appealing landing page for the restaurant for any visitor to explore and learn more.This page gives you a feel
+            of what the restaurant entails.
           </p>
-          <p class="mt-3 text-muted">Build using HTML, CSS, Javascript</p>
-          <a href="#">
+          <p class="mt-3 text-muted">Build using HTML, CSS, Bootstrap</p>
+          <a href="https://rococo-malabi-f0407b.netlify.app/">
             <button class="button my-3">Launch App</button>
           </a>
         </div>
       </div>
     </div>
-
-    <div class="footer">
-      <div class="copyright">@ Agnes 2023 |All Rights Reserved</div>
   </div>
+  <div class="footer">
+    <div class="copyright">@ Agnes 2023 |All Rights Reserved</div>
+</div>
+
+   
   </body>
 </html>

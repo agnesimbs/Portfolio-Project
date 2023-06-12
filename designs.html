@@ -31,9 +31,9 @@
   </head>
   <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg  fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand mx-5" href="#">Agnes Muchuki</a>
+        <a class="navbar-brand mx-5" href="/index.html">Agnes Muchuki</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,10 +45,13 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav" >
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active mx-5 my-1" aria-current="page" href="#">Home</a>
+              <a class="nav-link mx-5 my-1" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-5 my-1" href="/about.html">About me</a>
@@ -72,24 +75,77 @@
       </div>
     </nav>
 
-    <!--Hero section-->
-    <div class="container hero">
-      <div class="row px-5">
-        <div class="col md-7 hero-aboutme">
-          <h1>Agnes is a <span class="highlight-text">Product Designer and a Web Developer</span></h1>
-          <h3 class="my-4 hero-text">She is based in Nairobi, Kenya.</h3>
+
+    <!--Case studies-->
+    <h1 class="project-heading text-center my-5">Case Studies</h1>
+
+    <div class="container">
+      <div class="row project-row my-5">
+        <div class="col-lg-5">
+          <img
+            class="project-image img-fluid"
+            src="/design/images/Foodmate header image.png"
+            alt="Foodmate"
+          />
         </div>
-        <div class="col md-5">
-          <img class="container-fluid hero-image" src="images/avatar.png" alt="avator image">
+        <div class="col-lg-5 project-description">
+          <h3>Foodmate Mobile App</h3>
+          <p>
+            Meal Planner and Grocerly shopping Mobile Application
+          </p>
+          
+          <a href="/design/foodmate.html">
+            <button class="button my-3">View</button>
+          </a>
         </div>
       </div>
-      <div class="row px-5">
-        <div class="hero-links border border-3 rounded py-5 d-flex justify-content-evenly" >
-          <a href="about.html">About Me</a>
-          <a href="projects.html">Projects</a>
-          <a href="contact.html">Contact</a>
+
+      <div class="container">
+        <div class="row project-row my-5">
+          <div class="col-lg-5">
+            <img
+              class="project-image img-fluid"
+              src="/design/images/onlinelearning-card.jpg"
+              alt="online learning"
+            />
+          </div>
+          <div class="col-lg-5 project-description">
+            <h3>Cleaning Pro</h3>
+            <p>
+            A Cleaning Service Company Website
+            </p>
+            
+            <a href="/design/onlinelearning.html">
+              <button class="button my-3">View</button>
+            </a>
+          </div>
         </div>
-      </div>
-    </div>
-  </body>
-</html>
+
+        <div class="row project-row my-5">
+          <div class="col-lg-5 ">
+            <img
+              class="project-image img-fluid"
+              src="/design/images/cleaningpro headerimage.png"
+              alt="kitchen garden app"
+            />
+          </div>
+          <div class="col-lg-5 order-1 project-description">
+            <h3>Online Learning</h3>
+            <p>
+              E-learning Platform Landing Page
+            </p>
+          
+            <a href="/design/cleaningpro.html">
+              <button class="button my-3">View</button>
+            </a>
+          </div>
+        </div>
+
+
+
+ 
+
+
+
+    </body>
+    </html>
